@@ -1,0 +1,224 @@
+
+> cars-site@0.1.0 dev D:\client\Marwan-Landing-pages\marwanLandingPage
+> next dev --turbopack
+
+⚠ Port 3000 is in use by process 27568, using available port 3001 instead.
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.1.104:3001
+
+✓ Starting...
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+✓ Ready in 3.4s
+Error: MISSING_MESSAGE: Could not resolve `Navbar.services` in messages for locale `ar`.
+    at Navbar (app\components\ui\Nav.tsx:35:14)
+  33 |     {
+  34 |       href: `#${sections.services}`,
+> 35 |       label: t("services"),
+     |              ^
+  36 |       id: sections.services,
+  37 |     },
+  38 |     { {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `Navbar.services` in messages for locale `ar`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `Navbar.portfolio` in messages for locale `ar`.
+    at Navbar (app\components\ui\Nav.tsx:40:14)
+  38 |     {
+  39 |       href: `#${sections.portfolio}`,
+> 40 |       label: t("portfolio"),
+     |              ^
+  41 |       id: sections.portfolio,
+  42 |     },
+  43 |     // { {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `Navbar.portfolio` in messages for locale `ar`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `portfolio.photos` in messages for locale `ar`.
+    at Gallery (app\components\ui\Gallery.tsx:49:14)
+  47 |             }`}
+  48 |           >
+> 49 |             {t("photos")}
+     |              ^
+  50 |           </button>
+  51 |           <button
+  52 |             onClick={() => setShow("videos")} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `portfolio.photos` in messages for locale `ar`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `portfolio.videos` in messages for locale `ar`.
+    at Gallery (app\components\ui\Gallery.tsx:59:14)
+  57 |             }`}
+  58 |           >
+> 59 |             {t("videos")}
+     |              ^
+  60 |           </button>
+  61 |           <button
+  62 |             onClick={() => setShow("reviews")} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `portfolio.videos` in messages for locale `ar`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `portfolio.reviews` in messages for locale `ar`.
+    at Gallery (app\components\ui\Gallery.tsx:69:14)
+  67 |             }`}
+  68 |           >
+> 69 |             {t("reviews")}
+     |              ^
+  70 |           </button>
+  71 |         </div>
+  72 |       </div> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `portfolio.reviews` in messages for locale `ar`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `FAQS.subTitle` in messages for locale `ar`.
+    at FAQSection (app\components\sections\FAQ.tsx:35:58)
+  33 |       {/* Section Header */}
+  34 |       <Title title={t("sectionTitle")} />
+> 35 |       <SubTitle fTitle={t("fTitle")} sTitle="" subTitle={t("subTitle")} />
+     |                                                          ^
+  36 |
+  37 |       {/* FAQ List */}
+  38 |       <div data-aos="fade-up" className="space-y-4"> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `FAQS.subTitle` in messages for locale `ar`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.serviceOptionPhotography` in messages for locale `ar`.
+    at ContactForm (app\components\common\ContactForm.tsx:14:36)
+  12 |
+  13 |   const serviceOptions = [
+> 14 |     { value: "photography", label: t("serviceOptionPhotography") },
+     |                                    ^
+  15 |     { value: "content-marketing", label: t("serviceOptionContentMarketing") },
+  16 |     { value: "growth", label: t("serviceOptionGrowth") },
+  17 |   ]; {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.serviceOptionPhotography` in messages for locale `ar`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.serviceOptionContentMarketing` in messages for locale `ar`.
+    at ContactForm (app\components\common\ContactForm.tsx:15:42)
+  13 |   const serviceOptions = [
+  14 |     { value: "photography", label: t("serviceOptionPhotography") },
+> 15 |     { value: "content-marketing", label: t("serviceOptionContentMarketing") },
+     |                                          ^
+  16 |     { value: "growth", label: t("serviceOptionGrowth") },
+  17 |   ];
+  18 | {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.serviceOptionContentMarketing` in messages for locale `ar`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.serviceOptionGrowth` in messages for locale `ar`.
+    at ContactForm (app\components\common\ContactForm.tsx:16:31)
+  14 |     { value: "photography", label: t("serviceOptionPhotography") },
+  15 |     { value: "content-marketing", label: t("serviceOptionContentMarketing") },
+> 16 |     { value: "growth", label: t("serviceOptionGrowth") },
+     |                               ^
+  17 |   ];
+  18 |
+  19 |   return ( {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.serviceOptionGrowth` in messages for locale `ar`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `footer.agencyDescription` in messages for locale `ar`.
+    at Footer (app\components\ui\Footer.tsx:18:42)
+  16 |             <div className="w-12 h-12 bg-gradient-to-r from-[color:var(--color-brand-primary)] to-gray-950 rounded" />
+  17 |           </div>
+> 18 |           <p className="font-bold mb-4">{t("agencyDescription")}</p>
+     |                                          ^
+  19 |           <div className="space-y-2">
+  20 |             <p className="flex items-center gap-2">
+  21 |               <Mail/> {t("contact.email")} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `footer.agencyDescription` in messages for locale `ar`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `footer.quickLinks.services` in messages for locale `ar`.
+    at Footer (app\components\ui\Footer.tsx:37:58)
+  35 |           <ul className="space-y-2">
+  36 |             <li><a href="#" className="hover:underline">{t("quickLinks.home")}</a></li>
+> 37 |             <li><a href="#" className="hover:underline">{t("quickLinks.services")}</a></li>
+     |                                                          ^
+  38 |             {/* <li><a href="#" className="hover:underline">{t("quickLinks.partners")}</a></li>
+  39 |             <li><a href="#" className="hover:underline">{t("quickLinks.testimonials")}</a></li> */}
+  40 |             <li><a href="#" className="hover:underline">{t("quickLinks.contact")}</a></li> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `footer.quickLinks.services` in messages for locale `ar`.'
+}
+ GET /ar 200 in 4.7s (compile: 3.3s, proxy.ts: 238ms, render: 1175ms)
+✓ Compiled in 146ms
+ GET /ar 200 in 552ms (compile: 263ms, proxy.ts: 38ms, render: 250ms)
+✓ Compiled in 242ms
+ GET /ar 200 in 502ms (compile: 199ms, proxy.ts: 22ms, render: 281ms)
+✓ Compiled in 147ms
+ GET /ar 200 in 564ms (compile: 273ms, proxy.ts: 14ms, render: 277ms)
+✓ Compiled in 351ms
+ GET /ar 200 in 532ms (compile: 224ms, proxy.ts: 14ms, render: 294ms)
+✓ Compiled in 450ms
+ GET /ar 200 in 354ms (compile: 163ms, proxy.ts: 13ms, render: 179ms)
+✓ Compiled in 323ms
+ GET /ar 200 in 332ms (compile: 203ms, proxy.ts: 15ms, render: 114ms)
+✓ Compiled in 142ms
+ GET /ar 200 in 574ms (compile: 290ms, proxy.ts: 18ms, render: 266ms)
+✓ Compiled in 144ms
+ GET /ar 200 in 554ms (compile: 266ms, proxy.ts: 21ms, render: 268ms)
+ GET /ar 200 in 331ms (compile: 181ms, proxy.ts: 13ms, render: 137ms)
+ GET /ar 200 in 382ms (compile: 167ms, proxy.ts: 8ms, render: 207ms)
+ GET /ar 200 in 295ms (compile: 144ms, proxy.ts: 10ms, render: 141ms)
+✓ Compiled in 102ms
+ GET /ar 200 in 289ms (compile: 139ms, proxy.ts: 10ms, render: 140ms)
+✓ Compiled in 282ms
+✓ Compiled in 109ms
+ GET /ar 200 in 447ms (compile: 224ms, proxy.ts: 22ms, render: 202ms)
+✓ Compiled in 175ms
+ GET /ar 200 in 429ms (compile: 164ms, proxy.ts: 13ms, render: 251ms)
+ GET /ar 200 in 287ms (compile: 144ms, proxy.ts: 8ms, render: 135ms)
+✓ Compiled in 131ms
+ GET /ar 200 in 319ms (compile: 165ms, proxy.ts: 9ms, render: 145ms)
+✓ Compiled in 375ms
+ GET /ar 200 in 1520ms (compile: 248ms, proxy.ts: 16ms, render: 1256ms)
+⨯ ReferenceError: ContactSection is not defined
+    at HomePage (app\[locale]\page.tsx:69:8)
+  67 |
+  68 |       {/* Contact */}
+> 69 |       <ContactSection />
+     |        ^
+  70 |     </main>
+  71 |   );
+  72 | } {
+  digest: '3532730318'
+}
+✓ Compiled in 882ms
+ GET /ar 200 in 1047ms (compile: 860ms, proxy.ts: 14ms, render: 174ms)
+✓ Compiled in 430ms
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /ar 200 in 1839ms (compile: 368ms, proxy.ts: 21ms, render: 1451ms)
+✓ Compiled in 268ms
+✓ Compiled in 113ms
+✓ Compiled in 95ms
+✓ Compiled in 85ms
+✓ Compiled in 95ms
+✓ Compiled in 112ms
+✓ Compiled in 108ms
+✓ Compiled in 362ms
+ GET /ar 200 in 1625ms (compile: 434ms, proxy.ts: 226ms, render: 966ms)
+✓ Compiled in 329ms
+✓ Compiled in 319ms
+✓ Compiled in 222ms
+ GET /ar 200 in 581ms (compile: 160ms, proxy.ts: 17ms, render: 404ms)
+ GET /ar 200 in 298ms (compile: 109ms, proxy.ts: 8ms, render: 181ms)
+ GET /ar 200 in 255ms (compile: 96ms, proxy.ts: 7ms, render: 152ms)
+✓ Compiled in 202ms
+✓ Compiled in 135ms
+ GET /ar 200 in 372ms (compile: 163ms, proxy.ts: 11ms, render: 198ms)
+✓ Compiled in 313ms
+ GET /ar 200 in 455ms (compile: 217ms, proxy.ts: 13ms, render: 225ms)
+✓ Compiled in 1957ms
+✓ Compiled in 173ms
+✓ Compiled in 228ms
+ GET /ar 200 in 656ms (compile: 283ms, proxy.ts: 123ms, render: 250ms)
+✓ Compiled in 90ms
+ GET /ar 200 in 403ms (compile: 131ms, proxy.ts: 9ms, render: 263ms)
+✓ Compiled in 119ms
+ GET /ar 200 in 1312ms (compile: 315ms, proxy.ts: 12ms, render: 985ms)
+✓ Compiled in 127ms
+✓ Compiled in 412ms
+✓ Compiled in 132ms
+✓ Compiled in 184ms

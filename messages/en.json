@@ -1,0 +1,311 @@
+{
+  "Hero": {
+    "headline": {
+      "trophy": "🏆 The Leading AI & Machine Learning Academy",
+      "name": "Nexus AI Academy",
+      "tagline": "Your Gateway to the AI Revolution"
+    },
+    "description": "Most people think you need a Ph.D. or elite tech connections to succeed in artificial intelligence and machine learning. They're wrong. We've helped 500+ developers and entrepreneurs build profitable AI solutions—and we're about to show you how.",
+    "cta": {
+      "primary": "Get Your Free AI Starter Kit Now",
+      "benefits": {
+        "noCard": "✓ No credit card needed",
+        "instant": "✓ Instant access",
+        "booklets": "✓ 4 comprehensive AI modules"
+      }
+    },
+    "stats": {
+      "professionals": "500+",
+      "professionalsLabel": "Students",
+      "years": "5",
+      "yearsLabel": "Years",
+      "diplomas": "4",
+      "diplomasLabel": "Certifications"
+    }
+  },
+  "portfolio": {
+    "sectionTitle": "Portfolio",
+    "fTitle": "Our Success",
+    "sTitle": "Stories",
+    "subTitle": "See how we helped hundreds launch AI-powered products",
+    "photos": "Projects",
+    "videos": "Demos",
+    "reviews": "Reviews"
+  },
+  "WhyChooseBabylon": {
+    "title": "Backed by Top Tech Organizations",
+    "subtitle": "Unlike generic coding bootcamps, our certifications come with rigorous standards and are recognized by leading AI institutions.",
+    "certifications": [
+      {
+        "code": "AIE",
+        "name": "Artificial Intelligence Engineer"
+      },
+      {
+        "code": "MLE",
+        "name": "Machine Learning Expert"
+      },
+      {
+        "code": "DSI",
+        "name": "Data Science Institute"
+      },
+      {
+        "code": "CDA",
+        "name": "Certified Data Analyst"
+      },
+      {
+        "code": "AIP",
+        "name": "AI Product Manager"
+      },
+      {
+        "code": "NLA",
+        "name": "Neural Lab Association"
+      },
+      {
+        "code": "GCA",
+        "name": "Global Cloud Academy"
+      }
+    ]
+  },
+  "SectionLink1": {
+    "text": "Think you need a heavy background in math to start? We'll prove you wrong..."
+  },
+  "Journey": {
+    "title": "The Next Trillion-Dollar Opportunity",
+    "subtitle": "The AI Gap We Discovered",
+    "content": {
+      "intro": "Here's what nobody tells you: The AI software market is growing exponentially. Yet there wasn't a single specialized hands-on program that bridges the gap between theory and building real-world AI products.",
+      "gap": "You were told you need 'advanced calculus' or 'years of coding.' That's a myth. As engineers with years of hands-on experience building scalable AI solutions for top tech firms, we discovered the truth: The barrier isn't math—it's practical application.",
+      "solution": "That's why we created the first fully practical AI academy. We translated years of experience into a proven system that 500+ professionals have used to transform their careers and build AI startups. Now it's your turn."
+    },
+    "promise": {
+      "title": "Our Promise to You",
+      "content": "You don't need a Ph.D. to start. What you need is the exact roadmap that's already worked for hundreds of others—designed to shortcut years of trial and error."
+    },
+    "stats": {
+      "years": "Years of Tech Experience",
+      "professionals": "Trained Developers",
+      "marketValue": "AI Market Growth",
+      "programs": "Elite Certifications"
+    }
+  },
+  "SectionLink2": {
+    "text": "Here's the 5-step system 500+ students used to build AI apps..."
+  },
+  "SMARTSystem": {
+    "title": "Why Most People Fail (And How You Won't)",
+    "subtitle": "The Proven Framework",
+    "intro": "The #1 reason developers fail in AI isn't lack of coding skills—it's lack of focus. 'I want to learn AI' means nothing. 'Deploy a custom NLP chatbot for customer service in 30 days' is a SMART goal.",
+    "items": {
+      "specific": {
+        "name": "Specific",
+        "description": "Set crystal-clear goals. Focus on specific architectures like RAG or fine-tuning LLMs."
+      },
+      "measurable": {
+        "name": "Measurable",
+        "description": "Track progress with defined metrics—model accuracy, latency, and user adoption rates."
+      },
+      "authentic": {
+        "name": "Authentic",
+        "description": "Set realistic goals based on available compute and data resources."
+      },
+      "relevant": {
+        "name": "Relevant",
+        "description": "Tie each model to a real business problem. Focus on high-impact sectors."
+      },
+      "timeBound": {
+        "name": "Time-bound",
+        "description": "Set specific deadlines for deployment to avoid endless optimization loops."
+      }
+    },
+    "quote": "We don't just teach theory—we give you a battle-tested framework to deploy production-ready AI models."
+  },
+  "Programs": {
+    "title": "Elite AI Training Programs",
+    "subtitle": "The 4 Certifications That Launch Careers",
+    "warning": "Warning: These are intensive bootcamps requiring real coding and project work. If you're serious about building a career in AI, nothing else comes close.",
+    "programLabel": "Program",
+    "transformLabel": "Your Transformation:",
+    "avoidLabel": "What You'll Avoid:",
+    "modulesLabel": "Training Content:",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "downloadBrochure": "Download Syllabus",
+    "ecommerce": {
+      "title": "AI Product Builder | GenAI Master",
+      "tagline": "Master the secrets of building LLM-powered applications",
+      "transformation": "Build fully functional AI SaaS products. You'll master Prompt Engineering, RAG (Retrieval-Augmented Generation), and API integrations.",
+      "avoid": "Wasting months on outdated tutorials, struggling with hallucinations, and failing to scale your AI backend.",
+      "modulesCount": "5",
+      "modules": {
+        "0": "Module 1: Introduction to Large Language Models",
+        "1": "Module 2: Advanced Prompt Engineering & Chaining",
+        "2": "Module 3: Building Vector Databases & RAG pipelines",
+        "3": "Module 4: Agentic AI and Autonomous Workflows",
+        "4": "Module 5: Deploying your AI app to production"
+      },
+      "certification": "Certified GenAI Developer",
+      "downloads": "3,247 downloads this month"
+    },
+    "tourism": {
+      "title": "Computer Vision & Deep Learning",
+      "tagline": "Teach machines to see and understand the world",
+      "transformation": "Launch complex vision models. Learn how to train, fine-tune, and deploy models for object detection, facial recognition, and image generation.",
+      "avoid": "Burning expensive GPU hours on poor architectures and failing to optimize inference times.",
+      "modulesCount": "5",
+      "modules": {
+        "0": "Module 1: Foundations of Neural Networks",
+        "1": "Module 2: CNNs and Image Classification",
+        "2": "Module 3: Object Detection (YOLO, Faster R-CNN)",
+        "3": "Module 4: Image Generation (GANs, Diffusion Models)",
+        "4": "Module 5: Edge Deployment and Optimization"
+      },
+      "certification": "Certified Vision Engineer",
+      "downloads": "2,891 downloads this month"
+    },
+    "sales": {
+      "title": "Data Science & Predictive Analytics",
+      "tagline": "Turn raw data into actionable business intelligence",
+      "transformation": "Become the 'trusted data advisor'. Master statistical modeling, data visualization, and predictive algorithms that drive billion-dollar decisions.",
+      "avoid": "Getting lost in messy data, choosing the wrong algorithms, and failing to communicate insights to stakeholders.",
+      "modulesCount": "5",
+      "modules": {
+        "0": "Module 1: Data Wrangling and Exploratory Analysis",
+        "1": "Module 2: Statistical Foundations and Hypothesis Testing",
+        "2": "Module 3: Supervised & Unsupervised Machine Learning",
+        "3": "Module 4: Time Series Forecasting",
+        "4": "Module 5: Data Storytelling and Dashboarding"
+      },
+      "certification": "Certified Data Scientist",
+      "downloads": "4,102 downloads this month"
+    },
+    "wealth": {
+      "title": "AI Startup Accelerator",
+      "tagline": "Launch your AI startup from idea to funding",
+      "transformation": "A comprehensive system to build, launch, and fund your AI startup. Learn growth hacking, pitch deck creation, and tech-stack choices.",
+      "avoid": "Building products nobody wants, failing to secure funding, and scaling too early.",
+      "modulesCount": "12",
+      "modules": {
+        "0": "🚀 Path 1: Finding the AI Problem-Solution Fit",
+        "1": "💡 Path 2: Rapid Prototyping with No-Code AI",
+        "2": "💻 Path 3: Choosing your AI Tech Stack",
+        "3": "📈 Path 4: Go-to-Market Strategy for AI SaaS",
+        "4": "💰 Path 5: Pricing AI Products",
+        "5": "🔒 Path 6: Data Privacy and AI Ethics",
+        "6": "🧑‍💻 Path 7: Hiring Your Founding AI Team",
+        "7": "📊 Path 8: Metrics that Matter for AI Startups",
+        "8": "🎤 Path 9: Pitching to AI Investors",
+        "9": "🤝 Path 10: B2B Enterprise AI Sales",
+        "10": "☁️ Path 11: Cloud Infrastructure & Cost Management",
+        "11": "🌟 Path 12: Scaling to Series A"
+      },
+      "certification": "AI Startup Founder Certificate",
+      "downloads": "5,783 downloads this month"
+    }
+  },
+  "SectionLink3": {
+    "text": "Our top 3 open-source projects reveal insider coding secrets..."
+  },
+  "ProfessionalStandards": {
+    "title": "Our Commitment to Open Source and Ethics",
+    "subtitle": "Transparent and Responsible AI",
+    "content": {
+      "intro": "We operate within a disciplined framework guided by recognized standards of AI safety, data privacy, and ethical development.",
+      "certification": "Our students receive training that emphasizes building unbiased, safe, and transparent AI systems for the future."
+    },
+    "guarantee": {
+      "title": "Our Personal Guarantee",
+      "content": "If you complete our bootcamp and don't deploy a working AI application within 90 days, we'll provide additional 1-on-1 mentorship at no cost."
+    }
+  },
+  "SectionLink4": {
+    "text": "The 6 questions every aspiring AI dev asks..."
+  },
+  "FAQS": {
+    "sectionTitle": "Your Questions Answered",
+    "fTitle": "Most Common Questions",
+    "subTitle": "Answers to questions that concern you",
+    "faqs": [
+      {
+        "question": "Do I need a strong math background?",
+        "answer": "No. While math is helpful for theoretical research, our focus is on applied AI. If you know basic programming, you can build AI applications using modern APIs and frameworks."
+      },
+      {
+        "question": "Do I need an expensive computer/GPU?",
+        "answer": "Not at all. We teach you how to leverage cloud computing (AWS, Google Colab) to train and run your models without needing an expensive local setup."
+      },
+      {
+        "question": "What makes your training different?",
+        "answer": "We focus on real-world projects. Instead of just watching videos, you'll be coding and deploying actual applications to production."
+      },
+      {
+        "question": "Are these certificates recognized?",
+        "answer": "Yes, our certifications demonstrate practical competence and are recognized by leading tech employers looking for applied AI skills."
+      },
+      {
+        "question": "How does the SMART methodology apply to AI?",
+        "answer": "It helps you define clear scopes for your AI projects, ensuring you build something useful rather than getting stuck in endless research."
+      },
+      {
+        "question": "Who is the ideal student?",
+        "answer": "Software developers looking to transition to AI, technical product managers, and entrepreneurs who want to build AI-powered products."
+      }
+    ],
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "CallToAction": {
+    "title": "The AI Revolution is Here",
+    "description": "Every day you delay, the AI landscape evolves. The question is: Will you be a creator in this new era, or just a consumer?",
+    "cta": "Start Your AI Journey Now"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "heading": {
+      "line1": "Get in Touch",
+      "line2": "And Start Building the Future"
+    },
+    "description": "Have a question about our bootcamps? Contact our admissions team today.",
+    "email": "hello@nexusai.academy",
+    "phone": "+1 (555) 123-4567",
+    "address": "San Francisco, CA, USA",
+    "nameLabel": "Full Name",
+    "emailLabel": "Email Address",
+    "phoneLabel": "Phone Number",
+    "messageLabel": "Your Message",
+    "sendButton": "Send Message",
+    "namePlaceholder": "Enter your name",
+    "serviceTypeLabel": "Program of Interest",
+    "serviceTypePlaceholder": "Select a program",
+    "serviceOptionPhotography": "GenAI Master",
+    "serviceOptionContentMarketing": "Computer Vision",
+    "serviceOptionGrowth": "Data Science"
+  },
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Bootcamps",
+    "portfolio": "Projects",
+    "programs": "Programs",
+    "contact": "Contact",
+    "cta": "Enroll Now",
+    "ctaMobile": "Enroll"
+  },
+  "footer": {
+    "agencyDescription": "Leading AI education platform helping developers master the technologies of tomorrow.",
+    "description": "Nexus AI Academy - Empowering the next generation of builders with cutting-edge artificial intelligence and machine learning skills.",
+    "contact": {
+      "email": "hello@nexusai.academy",
+      "phone": "+1 (555) 123-4567",
+      "location": "San Francisco, CA, USA"
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "services": "Bootcamps",
+      "programs": "Programs",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "socialTitle": "Follow Us"
+  }
+}
